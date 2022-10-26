@@ -2,13 +2,6 @@ import java.util.ArrayList;
 public class TestOrders {
     public static void main(String[] args) {
     
-        // Menu items
-    
-        // Order variables -- order1, order2 etc.
-    
-        // Application Simulations
-        // Use this example code to test various orders' updates
-           // Create a new order, and assign it some values
         Item item1 = new Item();
         item1.name = "cola";
         item1.price = 2.5;
