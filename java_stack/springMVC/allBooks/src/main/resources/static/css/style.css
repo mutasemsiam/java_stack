@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+.mymain{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.books_table{
+	border: 2px solid black;
+}
+
+.one_book_container{
+	width:80%;
+	margin: 20px 0 0 5%;
+	border: 2px solid black;
+}
