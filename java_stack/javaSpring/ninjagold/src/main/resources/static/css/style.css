@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+.container{
+    width: 90%;
+    height: 1000px;
+}
+#places{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+.col-md-3{
+    height: 250px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 10px solid white;
+    background-color: rgb(158, 175, 226);
+    color: white;
+    border-radius: 30px;
+}
+
+form button{
+    background-color: darkorange;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 30px 0 30px 0;
+    background-color: darkorange;
+    padding-left: 15px;
+}
+.total{
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-left: 10px;
+}
+.activities{
+    height: 200px;
+    width: 100%;
+    border: 3px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.activities p{
+    margin-left: 10px;
+}
+
+.restart_button{
+    color: black;
+    margin-right: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
