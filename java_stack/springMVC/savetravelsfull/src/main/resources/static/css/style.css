@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+
+.mymain{
+	width:60%;
+	margin:0 auto;
+}
+
+.mycontainer{
+	border:2px solid black;
+	margin-bottom: 20px;
+}
