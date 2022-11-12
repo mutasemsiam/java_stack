@@ -65,6 +65,7 @@ public class MainController {
 			@Valid @ModelAttribute("ninja") Ninja ninja,
 			BindingResult result) {
 		if (result.hasErrors()) {
+			model.addAttribute("dojos", dojoService.allDojos());
             return "addninja.jsp";
         } else {
             ninjaService.createNinja(ninja);
